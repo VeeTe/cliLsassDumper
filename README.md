@@ -1,6 +1,14 @@
 # cliLsassDumper
 Command-line LSASS dumper (C#)
 
+## Usage:
+
+With the process name (default):
+```cliLsassDumper.exe C:\Path\To\Your\Dump\lsass.dmp```
+
+Specifying a process ID:
+```cliLsassDumper.exe C:\Path\To\Your\Dump\lsass.dmp 1234```
+
 
 ## Disclaimer for "cliLsassDumper":
 
